@@ -29,6 +29,8 @@ body { min-width: 960px; min-height: 500px; font-size: 14px; font-family: "Robot
 
 .contact { width: 600px; position: absolute; left: 50%; margin-left: -300px; bottom: 35px; font-size: 19px; color: #404040; text-align: center; font-family: "Roboto", sans-serif; }
 .contact span { color: #8a8a8a; }
+.contact a { font-size: 19px; color: #404040; font-family: "Roboto", sans-serif; text-decoration: none; }
+.contact a:hover { text-decoration: underline; }
 
 .l { *zoom: 1; }
 .l:after { content: " "; display: table; clear: both; }
