@@ -1,0 +1,58 @@
+// Common blocks
+// --------------------------------------------------
+
+body
+	min-width: 960px
+	min-height: 500px
+	font-size: 14px 
+	font-family: "Roboto", sans-serif
+	line-height: 1.4
+	
+.out
+	height: 640px
+	background: url("../img/bg.jpg")
+	+cover
+	position: relative
+	&:after
+		content: ""
+		background: url("../img/plane.png")
+		width: 197px
+		height: 114px
+		position: absolute
+		top: 50px
+		left: 50%
+		margin-left: -98px
+
+.game
+	width: 600px
+	position: absolute
+	left: 50%
+	margin-left: -300px
+	top: 190px
+	font-size: 45px
+	font-family: "Roboto Light", sans-serif
+	color: #404040
+	text-transform: uppercase
+	text-align: center 
+.coming
+	width: 600px
+	position: absolute
+	left: 50%
+	margin-left: -300px
+	top: 275px
+	font-family: "Roboto Light", sans-serif
+	font-size: 30px
+	color: #8A8A8A
+	text-align: center
+.contact
+	width: 600px
+	position: absolute
+	left: 50%
+	margin-left: -300px
+	bottom: 35px
+	font-size: 19px
+	color: #404040
+	text-align: center
+	font-family: "Roboto", sans-serif
+	span
+		color: #8A8A8A 
